@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #7896FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    margin-top: 60px;
+}
+header h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+div{
+    margin-top: 60px;
+    text-align: center
+}
+div input{
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(255, 254, 254); /* Cor de fundo com transparência */
+    color: #000000; /* Cor do texto */
+    padding: 7px;
+    width: 250px;
+}
+button{
+    padding: 10px;
+    border-radius: 7px;
+    margin-left: 20px;
+}
+.btn-limpar{
+    width: 70px;
+    background-color: #01114a91;
+    border: none;
+}
+.btn-adicionar{
+    width: 79px;
+    background-color: #1E4FFE;
+    border: none;
+}
+.btn-retirar{
+    width: 70px;
+    background-color: #FC7373;
+    border: none;
+}
+section {
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.79);
+    width: 500px;
+    height: 400px;
+    border-radius: 8px;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+.minha-section {
+    padding-top: 15px; /* Adiciona espaço acima do primeiro parágrafo */
+}
+.minha-section p {
+    background: none; /* Remove o background */
+    margin-bottom: 20px; /* Adiciona mais espaçamento abaixo de cada parágrafo */
+    margin-left: 15px;
+}
+
